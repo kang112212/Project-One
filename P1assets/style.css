@@ -1,0 +1,91 @@
+
+
+body {
+  overflow-x: hidden;
+}
+@media (max-width: 766px) {
+  .deskNav {
+    display: none;
+  }
+}
+@media (min-width: 767px) {
+  .mobileNav {
+    display: none;
+    background-color: #f94c70;
+  }
+}
+#topNav {
+  background-color: #f94c70 !important;
+}
+Nav {
+  background-color: #f94c70;
+  border: solid 1px black;
+}
+.mobileNav a {
+  color: rgba(0, 0, 0, 0.9);
+  margin: auto;
+}
+
+.mobileProfile p {
+  display: none;
+}
+.mobileProfile:hover p {
+  display: inline-flex;
+  margin: 0 0 0px 3px;
+}
+.prof {
+  background-color: rgba(47,47,162, 1);
+}
+.profilePic {
+  border: solid 10px #553D67;
+  border-radius: 50px;
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  max-width: 200px;
+}
+figcaption {
+color: black;
+text-align: center;
+}
+.cntact {
+  text-align: center;
+  padding: 10px 0;
+  border: solid 1px black;
+}
+.outgoing {
+  color: orange;
+}
+h1 {
+  color: black;
+}
+.txt {
+  color: gray;
+}
+#mobileList {
+  margin: 10px 10px;
+}
+footer {
+  background-color: #f94c70;
+height: 10vh;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul {
+  text-align: center;
+}
+
+.fab {
+  color: rgba(47,47,162, 1);
+  margin-top: 10px;
+}
+.go {
+  margin: 10px 0 0 0;
+}
+.imgs {
+  width: 90%;
+}
+.col-md-4 {
+  padding: 0;
+}
