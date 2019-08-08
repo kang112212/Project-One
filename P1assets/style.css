@@ -53,11 +53,17 @@ text-align: center;
   padding: 10px 0;
   border: solid 1px black;
 }
+#borderOverLapNoMore {
+  border-top: 0;
+  border-bottom: 0;
+}
 .outgoing {
   color: orange;
 }
 h1 {
   color: black;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .txt {
   color: gray;
@@ -67,7 +73,7 @@ h1 {
 }
 footer {
   background-color: #f94c70;
-height: 10vh;
+height: 11vh;
 }
 footer ul li {
   display: inline-block;
@@ -75,16 +81,24 @@ footer ul li {
 footer ul {
   text-align: center;
 }
-
+/* fab = class in footer
+*/
 .fab {
   color: rgba(47,47,162, 1);
   margin-top: 10px;
 }
-.go {
+.sectionDivides {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.goSomewhereButton {
   margin: 10px 0 0 0;
 }
 .imgs {
   width: 90%;
+}
+.portfolioPics {
+  margin: 20px 0;
 }
 .col-md-4 {
   padding: 0;
